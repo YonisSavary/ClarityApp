@@ -1,0 +1,10 @@
+<?php
+
+use Clarity\Clarity;
+use Clarity\Common\CLI\Terminal;
+
+require "Clarity/Clarity.php";
+
+Clarity::initialize();
+
+Terminal::interpretArgv($argv);
