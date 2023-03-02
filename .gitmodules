@@ -1,0 +1,4 @@
+[submodule "Clarity"]
+	path = Clarity
+	url = https://github.com/YonisSavary/Clarity.git
+	branch = master
