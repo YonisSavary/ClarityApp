@@ -1,23 +1,17 @@
-# Clarity Application
+# Clarity Application Template
 
-This template makes the use of Clarity framework easier
+This template can get you started with the [Clarity Framework](https://github.com/YonisSavary/Clarity) !
 
 ## Getting Started 
 
-Before using Clarity, you need to clone this repository or use it as a template,
+Before using Clarity, you need to use this template (or clone it),
 then, you can run :
 
 ```bash
 git clone --recursive https://github.com/YonisSavary/ClarityApp.git
-# or 
-git clone --recursive <repo-that-use-ClarityApp>
 
-cd <your-repo>
+cd ClarityApp
 
-# if Clarity/ don't contain anything, run 
-# git submodule update --init --recursive
-
-# Create a default configuration for the framework
 php craft create-config
 ```
 
@@ -26,7 +20,7 @@ php craft create-config
 To create an Application, run
 
 ```bash
-php craft create-app <your-app-name>
+php craft create-app YourAppName
 ```
 
 This should create every needed files in your project
@@ -66,7 +60,7 @@ Renderer::render("home", ["title" => "Hello there !"]);
 
 ## Tutorials and documentation
 
-You can find Clarity's documentation in [`Clarity/Docs`](./Clarity/Docs/)
+You can find Clarity's documentation in [`Clarity/Docs`](https://github.com/YonisSavary/Clarity/tree/master/Docs)
 
 
 ## What can I expect ?
